@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+typing-extensions
+python-multipart
+numpy
+scikit-learn
+textblob
+vaderSentiment
+joblib

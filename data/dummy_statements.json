@@ -1,0 +1,74 @@
+{
+  "influencer_statements": [
+    {
+      "id": 1,
+      "influencer": "TechReviewer123",
+      "statement": "I love the new product launch! It's amazing and everyone should try it.",
+      "category": "product_review",
+      "timestamp": "2025-08-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "influencer": "LifestyleBlogger",
+      "statement": "The recent update was disappointing and didn't meet expectations.",
+      "category": "software_update",
+      "timestamp": "2025-08-01T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "influencer": "FashionGuru",
+      "statement": "I'm neutral about the changes, let's see how it goes.",
+      "category": "general",
+      "timestamp": "2025-08-01T14:15:00Z"
+    },
+    {
+      "id": 4,
+      "influencer": "BrandAmbassador",
+      "statement": "This brand always delivers quality, I'm impressed again.",
+      "category": "brand_review",
+      "timestamp": "2025-08-01T16:45:00Z"
+    },
+    {
+      "id": 5,
+      "influencer": "CustomerAdvocate",
+      "statement": "Not happy with the service lately, hope they improve soon.",
+      "category": "service_review",
+      "timestamp": "2025-08-02T09:00:00Z"
+    },
+    {
+      "id": 6,
+      "influencer": "TechEnthusiast",
+      "statement": "The customer support team was excellent and resolved my issue quickly.",
+      "category": "customer_support",
+      "timestamp": "2025-08-02T12:30:00Z"
+    },
+    {
+      "id": 7,
+      "influencer": "BudgetInfluencer",
+      "statement": "The pricing is too high for what you get, not worth it.",
+      "category": "pricing",
+      "timestamp": "2025-08-02T15:20:00Z"
+    },
+    {
+      "id": 8,
+      "influencer": "FeatureCritic",
+      "statement": "I have mixed feelings about the latest features.",
+      "category": "feature_review",
+      "timestamp": "2025-08-02T18:10:00Z"
+    },
+    {
+      "id": 9,
+      "influencer": "QualityChecker",
+      "statement": "Outstanding quality and design, absolutely wonderful experience!",
+      "category": "quality_review",
+      "timestamp": "2025-08-03T08:45:00Z"
+    },
+    {
+      "id": 10,
+      "influencer": "CriticalReviewer",
+      "statement": "This is terrible, worst experience I've had with this brand.",
+      "category": "negative_review",
+      "timestamp": "2025-08-03T13:22:00Z"
+    }
+  ]
+}
