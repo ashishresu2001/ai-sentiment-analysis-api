@@ -23,11 +23,34 @@ sentiment-analysis-app/
 - **Error Handling**: Robust error handling with proper HTTP status codes
 - **Logging**: Comprehensive logging for monitoring and debugging
 
-## Installation
+## Installation & Setup
 
-1. Navigate to the project directory:
+1. Clone the repository:
    ```bash
-   cd task-app
+   git clone <your-repo-url>
+   cd ai-sentiment-analysis-api
+   ```
+
+2. Create a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application:
+   ```bash
+   python main.py
+   ```
+
+5. Access the API:
+   - **Interactive Documentation**: http://localhost:8000/docs
+   - **ReDoc Documentation**: http://localhost:8000/redoc
+   - **Health Check**: http://localhost:8000/health
    ```
 
 2. Install dependencies:
@@ -153,35 +176,7 @@ The application uses Pydantic models for type safety and validation:
 }
 ```
 
-## Customization
-
-The sentiment analyzer can be customized by modifying the `AnalyzerConfig` class in `models.py`:
-- Add new keywords for different sentiment categories
-- Adjust confidence thresholds
-- Modify scoring algorithms
-
-## Error Handling
-
-The application includes comprehensive error handling:
-- Input validation using Pydantic models
-- Proper HTTP status codes
-- Detailed error messages
-- Logging for debugging
-
 ## Testing
 
 Test the API using the interactive documentation at `/docs` or use curl commands as shown above.
 
-## Next Steps for Production
-
-1. **Real AI Integration**: Replace keyword-based analysis with ML models (BERT, RoBERTa)
-2. **Database Integration**: Add PostgreSQL or MongoDB for persistent storage
-3. **Authentication**: Implement JWT-based authentication
-4. **Rate Limiting**: Add rate limiting for API endpoints
-5. **Caching**: Implement Redis caching for frequently accessed data
-6. **Monitoring**: Add Prometheus metrics and Grafana dashboards
-7. **Testing**: Add comprehensive unit and integration tests
-
----
-
-Ready for deployment and review! 🚀
