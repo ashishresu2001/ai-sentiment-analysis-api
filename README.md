@@ -1,6 +1,6 @@
 # AI Sentiment Analysis & Insight Generation
 
-A modern FastAPI application that uses AI components for sentiment analysis of influencer statements and generates actionable insights using Object-Oriented Programming principles.
+A modern FastAPI application that uses AI components for sentiment analysis of influencer statements and generates actionable insights.
 
 ## Project Structure
 
