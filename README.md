@@ -13,16 +13,6 @@ sentiment-analysis-app/
     └── dummy_statements.json  # Sample influencer data with metadata
 ```
 
-## Features
-
-- **Object-Oriented Design**: Uses abstract base classes, inheritance, and polymorphism
-- **Advanced Sentiment Analysis**: Keyword-based analyzer with configurable parameters
-- **Comprehensive Insights**: Detailed sentiment distribution and actionable recommendations
-- **Rich Data Models**: Structured data with metadata and type safety
-- **Multiple Endpoints**: Various API endpoints for different use cases
-- **Error Handling**: Robust error handling with proper HTTP status codes
-- **Logging**: Comprehensive logging for monitoring and debugging
-
 ## Installation & Setup
 
 1. Clone the repository:
